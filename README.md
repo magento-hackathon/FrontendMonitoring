@@ -22,6 +22,10 @@ Uninstallation
 --------------
 tbd
 
+Team
+-----
+Fabian Blechschmidt (@Fabian_ikono)
+
 Support
 -------
 If you have any issues with this extension, open an issue on [GitHub](https://github.com/magento-hackathon/FrontendMonitoring/issues).
