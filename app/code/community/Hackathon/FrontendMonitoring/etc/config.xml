@@ -41,4 +41,18 @@
             </model_save_after>
         </events>
     </frontend>
+    <default>
+        <hackathon_frontendmonitoring>
+            <log_action>
+                <Mage_Customer_Model_Customer />
+                <Mage_Sales_Model_Quote_Item />
+                <Mage_Sales_Model_Order_Item />
+                <Mage_Review_Model_Review />
+                <Mage_Customer_Model_Address />
+                <Mage_Wishlist_Model_Item />
+                <Mage_Poll_Model_Poll_Vote />
+                <Mage_Sendfriend_Model_Sendfriend />
+            </log_action>
+        </hackathon_frontendmonitoring>
+    </default>
 </config>
