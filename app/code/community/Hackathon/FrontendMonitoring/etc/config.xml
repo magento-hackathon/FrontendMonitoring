@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Hackathon_FrontendMonitoring>
+            <version>1.0.0</version>
+        </Hackathon_FrontendMonitoring>
+    </modules>
+    <global>
+        <models>
+            <hackathon_frontendmonitoring>
+                <class>Hackathon_FrontendMonitoring_Model</class>
+                <resourceModel>hackathon_frontendmonitoring_resource</resourceModel>
+            </hackathon_frontendmonitoring>
+            <hackathon_frontendmonitoring_resource>
+                <class>Hackathon_FrontendMonitoring_Model_Resource</class>
+                <entities>
+                    <user_action>
+                        <table>hackathon_frontendmonitoring_user_action</table>
+                    </user_action>
+                </entities>
+            </hackathon_frontendmonitoring_resource>
+        </models>
+    </global>
+    <frontend>
+        <events>
+            <model_save_after>
+                <observers>
+                    <hackathon_frontendmonitoring>
+                        <type>singleton</type>
+                        <class>Hackathon_FrontendMonitoring_Model_Observer</class>
+                        <method>modelSaveAfter</method>
+                    </hackathon_frontendmonitoring>
+                </observers>
+            </model_save_after>
+        </events>
+    </frontend>
+</config>

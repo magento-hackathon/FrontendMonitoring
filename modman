@@ -1,1 +1,2 @@
-#empty
+app/etc/modules/Hackathon_FrontendMonitoring.xml        app/etc/modules/Hackathon_FrontendMonitoring.xml
+app/code/community/Hackathon/FrontendMonitoring         app/code/community/Hackathon/FrontendMonitoring
