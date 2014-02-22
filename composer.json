@@ -1,0 +1,15 @@
+{
+    "name": "hackathon/frontendmonitoring",
+    "type": "magento-module",
+    "license": "GPL-3.0",
+    "description": "This module tracks frontend events with a reference to customer_id or session_id. It's a submodule of the Hackathon_Gamification module, to have some Gamification actions on the frontend.",
+    "authors": [
+        {
+            "name": "Fabian Blechschmidt",
+            "email": "frontend-monitoring@fabian-blechschmidt.de"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
