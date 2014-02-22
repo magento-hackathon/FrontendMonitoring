@@ -20,6 +20,13 @@
                 </entities>
             </hackathon_frontendmonitoring_resource>
         </models>
+        <resources>
+            <hackathon_frontendmonitoring_setup>
+                <setup>
+                    <module>Hackathon_FrontendMonitoring</module>
+                </setup>
+            </hackathon_frontendmonitoring_setup>
+        </resources>
     </global>
     <frontend>
         <events>
