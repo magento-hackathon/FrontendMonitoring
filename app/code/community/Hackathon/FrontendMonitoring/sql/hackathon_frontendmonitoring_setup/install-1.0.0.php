@@ -10,6 +10,7 @@ $table->addColumn(
     10,
     array(
         'primary' => true,
+        'identity' => true,
     ),
     'Action ID'
 );
