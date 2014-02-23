@@ -20,6 +20,11 @@
                 </entities>
             </hackathon_frontendmonitoring_resource>
         </models>
+        <helpers>
+            <hackathon_frontendmonitoring>
+                <class>Hackathon_FrontendMonitoring_Helper</class>
+            </hackathon_frontendmonitoring>
+        </helpers>
         <resources>
             <hackathon_frontendmonitoring_setup>
                 <setup>

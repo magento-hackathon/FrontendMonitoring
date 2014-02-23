@@ -13,7 +13,7 @@ class Hackathon_FrontendMonitoring_Model_Observer
             $action->setCustomerId(Mage::getSingleton('customer/session')->getCustomerId());
             $action->setModel(get_class($observer));
             $action->setAction('save_after');
-            $action->setTimestamp(now());
+            $action->setTimestamp(Mage::helper('hackathon_frontendmonitoring')->getNow());
 
             $action->save();
         }
