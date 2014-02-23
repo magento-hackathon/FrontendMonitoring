@@ -60,4 +60,11 @@
             </log_action>
         </hackathon_frontendmonitoring>
     </default>
+    <phpunit>
+        <suite>
+            <modules>
+                <Hackathon_FrontendMonitoring />
+            </modules>
+        </suite>
+    </phpunit>
 </config>
