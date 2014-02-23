@@ -1,6 +1,9 @@
 Hackathon_FrontendMonitoring
 =========================
 
+[![Build Status](https://travis-ci.org/magento-hackathon/FrontendMonitoring.png?branch=master)](https://travis-ci.org/magento-hackathon/FrontendMonitoring)
+
+
 Description
 -----------
 This module tracks frontend events with a reference to customer_id or session_id.
