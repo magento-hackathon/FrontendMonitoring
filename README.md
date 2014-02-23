@@ -15,7 +15,7 @@ tbd
 
 Compatibility
 -------------
-tbd
+Tested on Magento 1.8.1
 
 Installation Instructions
 -------------------------
