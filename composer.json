@@ -13,9 +13,13 @@
         "magento-hackathon/magento-composer-installer": "*"
     },
     "require-dev": {
-        "ecomdev/ecomdev_phpunit": "dev-dev"
+        "ivanchepurnyi/ecomdev_phpunit": "dev-dev"
     },
     "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        },
         {
             "type": "vcs",
             "url": "https://github.com/EcomDev/EcomDev_PHPUnit.git"
